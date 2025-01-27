@@ -1,0 +1,134 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkslategray;
+    color: white;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#content {
+    flex: 1;
+    padding: 2rem;
+}
+
+#recipe {
+    background-color: #444;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+#recipe h1 {
+    color: #ff6347;
+}
+
+#recipe img {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+}
+
+#recipe section {
+    margin-bottom: 2rem;
+}
+
+#recipe h2 {
+    color: #ff6347;
+}
+
+#recipe ul, #recipe ol {
+    margin-left: 2rem;
+}
+
+#commentBox {
+    background-color: #555;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+#commentBox h2 {
+    color: #ff6347;
+}
+
+#commentBox form {
+    display: flex;
+    flex-direction: column;
+}
+
+#commentBox label {
+    margin-top: 1rem;
+}
+
+#commentBox textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    border: none;
+}
+
+#commentBox button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#commentBox button:hover {
+    background-color: #e5533d;
+}
+
+#commentList {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #666;
+    border-radius: 8px;
+}
+
+#commentList li {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: #777;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-style: italic;
+    position: relative;
+    width: 100%;
+}
